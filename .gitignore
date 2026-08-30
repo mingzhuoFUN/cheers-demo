@@ -43,3 +43,4 @@ yarn-error.log*
 # local/editor artifacts
 .Rhistory
 *.tsbuildinfo
+/.sites-stage/
