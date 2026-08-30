@@ -7,9 +7,9 @@
 - `CheersUI.tsx`：完整手机端交互原型与页面状态。
 - `cheers-ui.css`：颜色令牌、移动端布局、卡片、跳灯光圈和动效。
 - `../app/page.tsx`：只负责加载 UI，不包含业务实现。
-- `../public/avatar-explorations/avatar-direction-b-sticker.webp`：玩家头像精灵图。
-- `../public/mode-cards/truth-landscape.webp`：真心话卡牌素材。
-- `../public/mode-cards/dare-landscape.webp`：大冒险卡牌素材。
+- `../public/avatar-explorations/avatar-direction-b-sticker.png`：玩家头像精灵图。
+- `../public/mode-cards/truth-landscape.png`：真心话卡牌素材。
+- `../public/mode-cards/dare-landscape.png`：大冒险卡牌素材。
 
 ## 已完成的 UI 流程
 
