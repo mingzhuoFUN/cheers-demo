@@ -13,8 +13,8 @@ const BackIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 
 const EnterIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>;
 
 const games = {
-  "truth-dare": { title: "真心话大冒险", tone: "blue", icon: "/game-assets/game-icons/truth-dare-v1.png" },
-  "most-likely": { title: "谁最可能", tone: "orange", icon: "/game-assets/game-icons/most-likely-v1.png" },
+  "truth-dare": { title: "真心话大冒险", tone: "blue", icon: "/game-assets/game-icons/truth-dare-v1.webp" },
+  "most-likely": { title: "谁最可能", tone: "orange", icon: "/game-assets/game-icons/most-likely-v1.webp" },
 } as const;
 const QUESTION_PROMPT_VERSION = "party-fun-v18";
 const TRUTH_DARE_HISTORY_KEY = "cheers-truth-dare-question-history-v1";
@@ -79,7 +79,7 @@ export default function GameHub() {
   }
 
   if (phase === "splash") return <main className="hub-shell"><section className="hub-phone splash-screen" aria-label="干杯应用正在启动">
-    <div className="splash-art"><Image src="/game-assets/loading/cheers-splash-v4.png" alt="两只啤酒杯碰杯" width={1536} height={1536} priority/></div>
+    <div className="splash-art"><Image src="/game-assets/loading/cheers-splash-v4.webp" alt="两只啤酒杯碰杯" width={800} height={800} priority/></div>
     <p>把手机放在中间</p>
     <h1>干杯！</h1>
     <span className="splash-progress" aria-hidden="true"><i/></span>
